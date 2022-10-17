@@ -9,14 +9,17 @@ down to very few bulletin points.
 - Object oriented programming
 - static typing
 
-
-
 ## Building
 
 npm install -g typescript // installs typescript globally
 npm install --save-dev jest //install jest module
 
 ## Dev Notes
+
 https://www.youtube.com/watch?v=FdYhlJxfYqc
 npm i --save-dev typescript jes @types/jest browser-sync rimraf npm-run-all
 npx tsc --init //customizable tsconfig
+npm install -g browser-sync //-g for window users //Had to use -g for windows issue
+npm run browsersync //live alternative
+
+Tried using browsersync but routing it to my index.html level:impossible

@@ -2,9 +2,12 @@
   "name": "lesson14-phillipnewell",
   "version": "1.0.0",
   "description": "In this lab, I'm apparently a badass javascript guy here\r to teach other engineers how to switch from typing javascript\r to typescript and explaining the differences which can narrowed\r down to very few bulletin points.",
-  "main": "index.js",
+  "main": "public/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "browsersync": "npx browser-sync start --server 'public' --port 5000 --files 'public'",
+    "watch": "npx tsc --watch",
+    "dev" : "run-p watch browsersync"
+
   },
   "repository": {
     "type": "git",
